@@ -1,4 +1,4 @@
-> # 1-1. BigQuery 기초 지식
+# 1-1. BigQuery 기초 지식
 ---
 ### 데이터 저장 형태  
 데이터는 데이터베이스 테이블 등에 저장
@@ -26,23 +26,23 @@ Google Cloud의 OLAP + DW.
 
 
 
-> # 1-2. BigQuery 환경 설정
+# 1-2. BigQuery 환경 설정
 ---
 ### BigQuery의 환경 구성 요소
 1) 프로젝트: 하나의 프로젝트에 여러 데이터셋이 존재
 2) 데이터셋: 하나의 데이터셋에 다양한 테이블이 존재
 3) 테이블: 행, 열 데이터
 
-![1-2](easyymm/SQL_DArtB/images/BQ 1-2.png)
+![1-2](images/BQ 1-2.png)
 BigQuery 실행 결과
 
 
 
-> # 2-1. 데이터 활용 Overview
+# 2-1. 데이터 활용 Overview
 ---
 ### 데이터 활용 과정
 
-![2-1](easyymm/SQL_DArtB/images/BQ 2-1.png)  
+![2-1](images/BQ 2-1.png)  
 어떤 일을 해야 한다 & 원하는 것을 정한다(가설 설정)  
 - 문제 정의. 'MECE': 중복이 없고 상호 배제적. ->고객, 타켓, 지표 정의(metric) 등
 
@@ -52,7 +52,7 @@ BigQuery 실행 결과
 
 
 
-> # 2-2. 저장된 데이터 확인하기
+# 2-2. 저장된 데이터 확인하기
 ---
 ### SQL 쿼리를 작성하기 전
 - 데이터가 어떻게 저장되어 있는가,
@@ -80,5 +80,5 @@ BigQuery 실행 결과
 
 BigQuery에서 데이터 살펴보기
 
-![2-2](easyymm/SQL_DArtB/images/BQ 2-2.png)  
+![2-2](images/BQ 2-2.png)  
 : 테이블 만든 후, 미리보기에서 행, 열 살펴볼 수 있음.
