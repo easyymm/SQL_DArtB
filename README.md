@@ -1,2 +1,2 @@
 # SQL_DArtB
-DArt-B SQL 관련 정리용 리포지토리
+DArt-B SQL 공부용 리포지토리
